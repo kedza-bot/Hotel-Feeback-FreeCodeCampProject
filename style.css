@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    margin: 20px 0;
+    font-size: 2em;
+}
+p{
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+form{
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d9ebda;
+    color:#f4f4f4;
+    border: none;
+    outline: none;
+}
+input[type="text"],input[type="email"]::placeholder{
+    color: #615c5c;
+}
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+/*-------------focus state---------------------*/
+input[type="number"]:focus{
+    background-color: darkgreen;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+input[type="email"]:focus{
+    border: none;
+    background-color: #82c084;
+}
+input[type="text"]:focus{
+    border: none;
+    background-color: #82c084;
+}
+input[type="radio"]:focus{
+    accent-color: green;
+}
+
+/*-------------------------******end of focus***----------------------------*/
+input[type="number"]{
+    width: 40px;
+    background-color: #5af762;
+    border: none;
+    border-radius: 5px;
+    color: #f4f4f4;
+    outline: none;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 10px;
+    accent-color: green;
+    border: none;
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+legend{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+select{
+    margin-bottom: 10px;
+}
